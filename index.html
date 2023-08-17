@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dash bord || Created By Salar Ali</title>
+</head>
+
+<body>
+    <div class="header">
+        <!-- here is NavBar HTML start -->
+        <div class="nav" id="nav">
+            <div class="closeMenu" id="close" onclick="hide()">X</div>
+            <!-- here is menu list Start  -->
+            <ul class="unorder-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Clints</a></li>
+            </ul>
+
+            <!-- here is Search html Start -->
+            <div class="Search">
+                <form action="" class="serach-form">
+                    <input type="text" placeholder="Search">
+                    <button type="submit"><img class="search-icon" src="icon/search.png" alt=""></button>
+                </form>
+            </div>
+
+            <!-- here is User img and Name start -->
+            <div class="ions">
+                <img class="userImg" src="img/user.jpg" alt="">
+                <h5 class="userName">Bros</h5>
+            </div>
+        </div>
+        <!-- here is dash bord HTML start  -->
+        <div class="dashbord">
+            <div class="leftNav">
+               <div class="Left-navbar-icon">
+                <div class="openMenu" id="show" onclick="show()"><img class="menu-icon" src="icon/menu.png" alt=""></div>
+                <div class="left-icon icon1"><i class="fa-solid fa-house fa-2xl"></i></div>
+                <div class="left-icon icon2"><i class="fa-solid fa-envelope fa-2xl"></i></div>
+                <div class="left-icon icon3"><i class="fa-brands fa-discord fa-2xl"></i></div>
+                <div class="left-icon icon4"><i class="fa-brands fa-github fa-2xl"></i></div>
+               </div>
+            </div>
+            <!-- here is Main dashbord screen Html start. -->
+            <div class="mainScreen">
+                <div class="main-item item1">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, quas.</p>
+                </div>
+                <div class="main-item item2">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, quas.</p>
+                </div>
+                <div class="main-item item3">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, quas.</p>
+                </div>
+                <div class="main-item item4">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, quas.</p>
+                </div>
+                <div class="main-item item5">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, quas.</p>
+                </div>
+                <div class="main-item item6">
+                    <h3>Title</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, quas.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- here is fontawesome Link pleacd -->
+    <script src="https://kit.fontawesome.com/562dd76a91.js" crossorigin="anonymous"></script>
+    <script>
+        //   here is Phone open menu event pleacd 
+        var nav = document.getElementById('nav');
+        function show() {
+            nav.classList.add('active-nav');
+        }
+        function hide() {
+            nav.classList.remove('active-nav');
+        }
+
+
+
+
+    </script>
+</body>
+
+</html>
